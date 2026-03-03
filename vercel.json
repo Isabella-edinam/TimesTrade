@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/api/chat", "destination": "/api/chat.js" },
+    { "source": "/api/delete-account", "destination": "/api/delete-account.js" },
+    { "source": "/dauth",   "destination": "/dauth.html"   },
+    { "source": "/pro",     "destination": "/pro.html"     },
+    { "source": "/start",   "destination": "/start.html"   },
+    { "source": "/profile", "destination": "/profile.html" },
+    { "source": "/",        "destination": "/index.html"   }
+  ]
+}
